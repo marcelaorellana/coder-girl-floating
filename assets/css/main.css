@@ -1,0 +1,87 @@
+body{
+	background-color: whitesmoke;
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+}
+.navegador{
+	overflow: auto;
+}
+.navegador p{
+	float: left;
+	color: grey;
+}
+ul {
+    list-style-type: none;
+    padding-right: 50px;
+   
+}
+li .navi{
+    float: right;
+    padding: 5px;
+    padding-top: 0;
+}
+a{
+	text-decoration: none;
+}
+.bienvenida{
+	background-image: url("../img/home.jpg");
+	background-size: cover;
+	background-position: top;
+	padding: 180px 0;
+	text-align: center;
+}
+.bienvenida h1{
+	text-transform: uppercase;
+	color: whitesmoke;
+	font-size: 40px;
+}
+.bienvenida button {
+    background-color: #0E4AFF; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+img#love{
+    width:440px; 
+    height: auto;
+    margin: 20px;
+    float: left;
+    display: inline-block;
+}
+.respect{
+	display: inline-block;
+	float: right;
+}
+/*
+.hackaton{
+	background-color: #F1E308;
+	margin-top: 20px;
+	display: inline-block;
+	overflow: auto;
+}
+img#love{
+    width:440px; 
+    height: auto;
+    margin: 20px;
+    float: left;
+    display: inline-block;
+}
+.respect{
+	display: inline-block;
+	float: right;
+}
+.hackaton h1{
+	text-transform: uppercase;
+	color: gray;
+	font-size: 30px;
+}
+.hackaton p{
+	color: gray;
+}
+*/
