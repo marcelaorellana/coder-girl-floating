@@ -20,6 +20,12 @@ document.getElementById("buttonForm").addEventListener("click", function(val){
 			alert("Mensaje no puede ser vacio ni tener más de 100 caracteres");
 		}
 		 
-		 return true;
-	
+	 return true;	
 }); 
+document.getElementById("buttonBienvenida").addEventListener("click", function(){
+	document.getElementById("tituloId").innerHTML = "Otro Mensaje";
+});
+
+document.getElementById("buttonHackethon").addEventListener("click", function(){
+	
+})
