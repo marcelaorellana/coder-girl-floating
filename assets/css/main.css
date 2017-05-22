@@ -36,7 +36,7 @@ a{
 	color: whitesmoke;
 	font-size: 40px;
 }
-.bienvenida button {
+ button {
     background-color: #0E4AFF; /* Green */
     border: none;
     color: white;
@@ -47,6 +47,7 @@ a{
     font-size: 16px;
     border-radius: 8px;
 }
+
 img#love{
     width:440px; 
     height: auto;
@@ -58,30 +59,26 @@ img#love{
 	display: inline-block;
 	float: right;
 }
-/*
+
 .hackaton{
-	background-color: #F1E308;
-	margin-top: 20px;
-	display: inline-block;
+	overflow: auto;
+	background-color: yellow;
+}
+.contacto{
 	overflow: auto;
 }
-img#love{
-    width:440px; 
-    height: auto;
-    margin: 20px;
-    float: left;
-    display: inline-block;
+#made{
+	float: left;
+	width: 540px;
+	height: auto;
+	margin-top: 30px;
 }
-.respect{
-	display: inline-block;
+.formContacto{
 	float: right;
+	display: block; 
 }
-.hackaton h1{
-	text-transform: uppercase;
-	color: gray;
-	font-size: 30px;
+input{
+	display: block;
+	padding: 10px 40px;
+	margin: 20px;
 }
-.hackaton p{
-	color: gray;
-}
-*/
